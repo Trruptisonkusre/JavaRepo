@@ -3,4 +3,13 @@
   <groupId>test</groupId>
   <artifactId>test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+        <!-- project-apple depends on project-banana -->
+        <dependency>
+            <groupId>test</groupId>
+            <artifactId>test</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
+
